@@ -46,7 +46,7 @@ jobs:
       # Check the code-style consistency of the xml file.
       # Note: this needs xmllint, but that will be installed via the phpcsstandards/xmllint-validate action runner.
       - name: Check code style
-        run: diff -B ./PHPCompatibilityWP/ruleset.xml <(xmllint --format "./PHPCompatibilityWP/ruleset.xml")
+        run: diff -B ./PHPCompatibilityFP/ruleset.xml <(xmllint --format "./PHPCompatibilityFP/ruleset.xml")
 
   test:
     # Don't run the cron job on forks.
@@ -96,4 +96,4 @@ jobs:
 
       # Make sure that known polyfills don't trigger any errors.
       - name: Test the ruleset
-        run: vendor/bin/phpcs -ps ./Test/WPTest.php --standard=PHPCompatibilityWP --runtime-set testVersion 5.2-
+        run: vendor/bin/phpcs -ps ./Test/FPTest.php --standard=PHPCompatibilityFP --runtime-set testVersion 5.2-

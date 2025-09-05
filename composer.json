@@ -1,8 +1,8 @@
 {
-  "name" : "phpcompatibility/phpcompatibility-wp",
-  "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by WordPress.",
+  "name" : "phpcompatibility/phpcompatibility-fp",
+  "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by FinPress.",
   "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "wordpress" ],
+  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "finpress" ],
   "homepage" : "http://phpcompatibility.com/",
   "license" : "LGPL-3.0-or-later",
   "authors" : [ {
@@ -14,9 +14,9 @@
     "role" : "lead"
   } ],
   "support" : {
-    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityWP/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityWP",
-    "security": "https://github.com/PHPCompatibility/PHPCompatibilityWP/security/policy"
+    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityFP/issues",
+    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityFP",
+    "security": "https://github.com/PHPCompatibility/PHPCompatibilityFP/security/policy"
   },
   "config": {
     "allow-plugins": {
