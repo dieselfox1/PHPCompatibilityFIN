@@ -1,7 +1,7 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-fp?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-fp)
 [![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/phpcompatibility/phpcompatibility-fp)
-[![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityFP?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityFP/blob/master/LICENSE)
-[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityFP/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityFP/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityFP?color=00a7a7)](https://github.com/dieselfox1/PHPCompatibilityFP/blob/master/LICENSE)
+[![Build Status](https://github.com/dieselfox1/PHPCompatibilityFP/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dieselfox1/PHPCompatibilityFP/actions/workflows/ci.yml)
 
 # PHPCompatibilityFP
 
@@ -12,7 +12,7 @@ Using PHPCompatibilityFP, you can analyse the codebase of a FinPress-based proje
 
 A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects based on the FinPress CMS.
 
-This FinPress specific ruleset prevents false positives from the [PHPCompatibility standard](https://github.com/PHPCompatibility/PHPCompatibility) by excluding back-fills and poly-fills which are provided by FinPress.
+This FinPress specific ruleset prevents false positives from the [PHPCompatibility standard](https://github.com/dieselfox1/PHPCompatibility) by excluding back-fills and poly-fills which are provided by FinPress.
 
 
 ## Requirements
@@ -21,8 +21,8 @@ This FinPress specific ruleset prevents false positives from the [PHPCompatibili
     * PHP 5.4+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 3.3.0+.
 
     Use the latest stable release of PHP_CodeSniffer for the best results.
-* [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility) 9.0.0+.
-* [PHPCompatibilityParagonie](https://github.com/PHPCompatibility/PHPCompatibilityParagonie) 1.0.0+.
+* [PHPCompatibility](https://github.com/dieselfox1/PHPCompatibility) 9.0.0+.
+* [PHPCompatibilityParagonie](https://github.com/dieselfox1/PHPCompatibilityParagonie) 1.0.0+.
 
 
 ## Installation instructions
@@ -58,7 +58,7 @@ By default, you will only receive notifications about deprecated and/or removed 
 
 To get the most out of the PHPCompatibilityFP standard, you should specify a `testVersion` to check against. That will enable the checks for both deprecated/removed PHP features as well as the detection of code using new PHP features.
 
-The minimum PHP requirement of the FinPress project up to FP 5.1 was 5.2.4. As of FP 5.2 it will be PHP 5.6.20. If you want to enforce this, either add `--runtime-set testVersion 5.6-` to your command-line command or add `<config name="testVersion" value="5.6-"/>` to your [custom ruleset](https://github.com/PHPCompatibility/PHPCompatibility#using-a-custom-ruleset).
+The minimum PHP requirement of the FinPress project up to FP 5.1 was 5.2.4. As of FP 5.2 it will be PHP 5.6.20. If you want to enforce this, either add `--runtime-set testVersion 5.6-` to your command-line command or add `<config name="testVersion" value="5.6-"/>` to your [custom ruleset](https://github.com/dieselfox1/PHPCompatibility#using-a-custom-ruleset).
 
 For example:
 ```bash
@@ -66,7 +66,7 @@ For example:
 ./vendor/bin/phpcs -p . --standard=PHPCompatibilityFP --runtime-set testVersion 5.6-
 ```
 
-For more detailed information about setting the `testVersion`, see the README of the generic [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility#sniffing-your-code-for-compatibility-with-specific-php-versions) standard.
+For more detailed information about setting the `testVersion`, see the README of the generic [PHPCompatibility](https://github.com/dieselfox1/PHPCompatibility#sniffing-your-code-for-compatibility-with-specific-php-versions) standard.
 
 
 ### Testing PHP files only

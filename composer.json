@@ -1,5 +1,5 @@
 {
-  "name" : "phpcompatibility/phpcompatibility-fp",
+  "name" : "dieselfox1/phpcompatibility-fp",
   "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by FinPress.",
   "type" : "phpcodesniffer-standard",
   "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "finpress" ],
@@ -14,9 +14,9 @@
     "role" : "lead"
   } ],
   "support" : {
-    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityFP/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityFP",
-    "security": "https://github.com/PHPCompatibility/PHPCompatibilityFP/security/policy"
+    "issues" : "https://github.com/dieselfox1/PHPCompatibilityFP/issues",
+    "source" : "https://github.com/dieselfox1/PHPCompatibilityFP",
+    "security": "https://github.com/dieselfox1/PHPCompatibilityFP/security/policy"
   },
   "config": {
     "allow-plugins": {
