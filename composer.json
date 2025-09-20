@@ -1,5 +1,5 @@
 {
-  "name" : "dieselfox1/phpcompatibility-fp",
+  "name" : "dieselfox1/phpcompatibility-fin",
   "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by FinPress.",
   "type" : "phpcodesniffer-standard",
   "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "finpress" ],

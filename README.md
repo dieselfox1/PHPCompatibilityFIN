@@ -1,5 +1,5 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-fp?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-fp)
-[![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/phpcompatibility/phpcompatibility-fp)
+[![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-fin?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-fin)
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/phpcompatibility/phpcompatibility-fin)
 [![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityFP?color=00a7a7)](https://github.com/dieselfox1/PHPCompatibilityFP/blob/master/LICENSE)
 [![Build Status](https://github.com/dieselfox1/PHPCompatibilityFP/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dieselfox1/PHPCompatibilityFP/actions/workflows/ci.yml)
 
@@ -32,12 +32,12 @@ The only supported installation method is via [Composer](https://getcomposer.org
 If you don't have a Composer plugin installed to manage the `installed_paths` setting for PHP_CodeSniffer, run the following from the command-line:
 ```bash
 composer config allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
-composer require --dev dealerdirect/phpcodesniffer-composer-installer:"^1.0" phpcompatibility/phpcompatibility-fp:"*"
+composer require --dev dealerdirect/phpcodesniffer-composer-installer:"^1.0" phpcompatibility/phpcompatibility-fin:"*"
 ```
 
 If you already have a Composer PHP_CodeSniffer plugin installed, run:
 ```bash
-composer require --dev phpcompatibility/phpcompatibility-fp:"*"
+composer require --dev phpcompatibility/phpcompatibility-fin:"*"
 ```
 
 Next, run:
